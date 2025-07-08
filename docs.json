@@ -31,15 +31,26 @@
 					{
 						"group": "Guides / Concepts",
 						"pages": [
-							"examples/deployments-automation",
-							"examples/domain-management",
-							"examples/environment-variables",
-							"examples/integrations",
-							"examples/logs-monitoring",
-							"examples/project-management",
-							"examples/team-management",
-							"examples/firewall-management",
-							"examples/rolling-releases"
+							"Overview",
+        					{
+        						"group": "Concepts",
+        						"pages": [
+        							"Middleware",
+        							"Routing",
+        							"Programatic Domain Configuration",
+        							"Custom Subpaths",
+        							"Limits",
+        							"Claim Deployment",
+        						]
+        					},
+							{
+        						"group": "Guides",
+        						"pages": [
+        							"Next.js App Router",
+        							"Domain Connect",
+        							"v0 Platform API"
+        						]
+        					},
 						]
 					}
 				]
