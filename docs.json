@@ -1,92 +1,108 @@
 {
-	"$schema": "https://mintlify.com/docs.json",
-	"theme": "mint",
-	"name": "Vercel Platforms Guide",
-	"colors": {
-		"primary": "#666666",
-		"light": "#ededed",
-		"dark": "#171717"
-	},
-	"styling": {
-		"codeblocks": "system"
-	},
-	"background": {
-		"color": { "light": "#ffffff", "dark": "#171717" }
-	},
-	"favicon": {
-		"light": "/logo/vercel-icon-dark.png",
-		"dark": "/logo/vercel-icon-light.png"
-	},
-	"fonts": {
-		"body": { "family": "Geist" },
-		"heading": { "family": "Geist" }
-	},
-	"navigation": {
-		"tabs": [
-			{
-				"tab": "Get Started",
-				"pages": [
-					"Use Cases",
-					"Customers",
-					{
-						"group": "Guides / Concepts",
-						"pages": [
-							"Overview",
-        					{
-        						"group": "Concepts",
-        						"pages": [
-        							"Middleware",
-        							"Routing",
-        							"Programatic Domain Configuration",
-        							"Custom Subpaths",
-        							"Limits",
-        							"Claim Deployment",
-        						]
-        					},
-							{
-        						"group": "Guides",
-        						"pages": [
-        							"Next.js App Router",
-        							"Domain Connect",
-        							"v0 Platform API"
-        						]
-        					},
-						]
-					}
-				]
-			}
-		]
-	},
-	"contextual": {
-		"options": ["copy", "view"]
-	},
-	"logo": {
-		"light": "/logo/vercel-logotype-light.svg",
-		"dark": "/logo/vercel-logotype-dark.svg"
-	},
-	"navbar": {
-		"links": [
-			{
-				"label": "Docs",
-				"href": "https://vercel.com/docs"
-			},
-			{
-				"label": "Help",
-				"href": "https://vercel.com/help"
-			}
-		]
-	},
-	"api": {
-		"playground": {
-			"display": "simple"
-		},
-		"examples": { "languages": ["ts", "js", "bash"] }
-	},
-	"footer": {
-		"socials": {
-			"x": "https://x.com/vercel",
-			"github": "https://github.com/vercel",
-			"linkedin": "https://linkedin.com/company/vercel"
-		}
-	}
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Vercel Platforms Guide",
+    "colors": {
+        "primary": "#666666",
+        "light": "#ededed",
+        "dark": "#171717"
+    },
+    "styling": {
+        "codeblocks": "system"
+    },
+    "background": {
+        "color": {
+            "light": "#ffffff",
+            "dark": "#171717"
+        }
+    },
+    "favicon": {
+        "light": "/logo/vercel-icon-dark.png",
+        "dark": "/logo/vercel-icon-light.png"
+    },
+    "fonts": {
+        "body": {
+            "family": "Geist"
+        },
+        "heading": {
+            "family": "Geist"
+        }
+    },
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Get Started",
+                "pages": [
+                    "Use Cases",
+                    "Customers",
+                    {
+                        "group": "Guides / Concepts",
+                        "pages": [
+                            "Overview",
+                            {
+                                "group": "Concepts",
+                                "pages": [
+                                    "Middleware",
+                                    "Routing",
+                                    "Programatic Domain Configuration",
+                                    "Custom Subpaths",
+                                    "Limits",
+                                    "Claim Deployment"
+                                ]
+                            },
+                            {
+                                "group": "Guides",
+                                "pages": [
+                                    "Next.js App Router",
+                                    "Domain Connect",
+                                    "v0 Platform API"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view"
+        ]
+    },
+    "logo": {
+        "light": "/logo/vercel-logotype-light.svg",
+        "dark": "/logo/vercel-logotype-dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Docs",
+                "href": "https://vercel.com/docs"
+            },
+            {
+                "label": "Help",
+                "href": "https://vercel.com/help"
+            }
+        ]
+    },
+    "api": {
+        "playground": {
+            "display": "simple"
+        },
+        "examples": {
+            "languages": [
+                "ts",
+                "js",
+                "bash"
+            ]
+        }
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/vercel",
+            "github": "https://github.com/vercel",
+            "linkedin": "https://linkedin.com/company/vercel"
+        }
+    }
 }
