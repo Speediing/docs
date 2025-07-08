@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap");
+
+#sidebar-content {
+  background: #ffffff;
+}
+
+pre,
+code {
+  font-family: "Geist Mono", sans-serif;
+}
+
+#sidebar-content img[src*="vercel-logotype"],
+#navbar img[src*="vercel-logotype"] {
+  height: 18px;
+}
+
+.dark {
+  #sidebar-content {
+    background: #171717;
+  }
+}
+
+@media (max-width: 640px) {
+  .prose code {
+    white-space: pre-wrap; /* CSS3 */
+    word-wrap: break-word; /* IE */
+    word-break: break-word; /* Modern browsers */
+    overflow-wrap: break-word; /* Modern browsers */
+    max-width: 100%;
+    display: inline-block;
+  }
+}
+
+/* Capitalize endpoint tags */
+#navigation-items > div > ul > li > div > div.flex-1 {
+  text-transform: capitalize;
+}
+
+/* Add spacing for hyphenated words */
+#navigation-items > div > ul > li > div > div.flex-1 {
+  /* This adds a bit more space where hyphens are */
+  word-spacing: 0.25em;
+}
+
+#content-area .eyebrow {
+  text-transform: var(--text-transform, capitalize);
+}
