@@ -1,102 +1,94 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
+	"$schema": "https://mintlify.com/docs.json",
+	"theme": "mint",
+	"name": "Vercel Platforms Guide",
+	"colors": {
+		"primary": "#666666",
+		"light": "#ededed",
+		"dark": "#171717"
+	},
+	"styling": {
+		"codeblocks": "system"
+	},
+	"background": {
+		"color": { "light": "#ffffff", "dark": "#171717" }
+	},
+	"favicon": {
+		"light": "/logo/vercel-icon-dark.png",
+		"dark": "/logo/vercel-icon-light.png"
+	},
+	"fonts": {
+		"body": { "family": "Geist" },
+		"heading": { "family": "Geist" }
+	},
+	"navigation": {
+		"tabs": [
+			{
+				"tab": "Get Started",
+				"pages": [
+					"welcome",
+					"sdk",
+					"errors",
+					{
+						"group": "Examples",
+						"pages": [
+							"examples/deployments-automation",
+							"examples/domain-management",
+							"examples/environment-variables",
+							"examples/integrations",
+							"examples/logs-monitoring",
+							"examples/project-management",
+							"examples/team-management",
+							"examples/firewall-management",
+							"examples/rolling-releases"
+						]
+					}
+				]
+			},
+			{
+				"tab": "Endpoints",
+				"groups": [
+					{
+						"group": "Endpoints",
+						"openapi": {
+							"source": "https://spec.speakeasy.com/vercel/vercel-docs/vercel-oas-with-code-samples",
+							"directory": "endpoints"
+						}
+					}
+				]
+			}
+		]
+	},
+	"contextual": {
+		"options": ["copy", "view"]
+	},
+	"logo": {
+		"light": "/logo/vercel-logotype-light.svg",
+		"dark": "/logo/vercel-logotype-dark.svg"
+	},
+	"navbar": {
+		"links": [
+			{
+				"label": "Docs",
+				"href": "https://vercel.com/docs"
+			},
+			{
+				"label": "Help",
+				"href": "https://vercel.com/help"
+			}
+		]
+	},
+	"api": {
+		"playground": {
+			"display": "simple"
+		},
+		"examples": { "languages": ["ts", "js", "bash"] }
+	},
+	"footer": {
+		"socials": {
+			"x": "https://x.com/vercel",
+			"github": "https://github.com/vercel",
+			"linkedin": "https://linkedin.com/company/vercel"
+		}
+	}
 }
