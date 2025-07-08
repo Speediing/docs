@@ -44,18 +44,6 @@
 						]
 					}
 				]
-			},
-			{
-				"tab": "Endpoints",
-				"groups": [
-					{
-						"group": "Endpoints",
-						"openapi": {
-							"source": "https://spec.speakeasy.com/vercel/vercel-docs/vercel-oas-with-code-samples",
-							"directory": "endpoints"
-						}
-					}
-				]
 			}
 		]
 	},
