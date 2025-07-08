@@ -26,11 +26,10 @@
 			{
 				"tab": "Get Started",
 				"pages": [
-					"welcome",
-					"sdk",
-					"errors",
+					"Use Cases",
+					"Customers",
 					{
-						"group": "Examples",
+						"group": "Guides / Concepts",
 						"pages": [
 							"examples/deployments-automation",
 							"examples/domain-management",
